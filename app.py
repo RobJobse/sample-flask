@@ -10,4 +10,4 @@ def hello_world():
 
 @app.route("/test")
 def hello_test():
-    return render_test("test.html")
+    return render_template("test.html")
